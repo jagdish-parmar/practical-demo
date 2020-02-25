@@ -5,14 +5,4 @@
 
 export const environment = {
   production: false,
-  BackendUrl: `http://192.168.88.5:4000`,
-  firebaseConfig: {
-    apiKey: "AIzaSyAPPeW3AT4ssuK76jfCggQa_lINxk4vHr4",
-    authDomain: "myapp-a5ac5.firebaseapp.com",
-    databaseURL: "https://myapp-a5ac5.firebaseio.com",
-    projectId: "myapp-a5ac5",
-    storageBucket: "myapp-a5ac5.appspot.com",
-    messagingSenderId: "468955788493",
-    appId: "1:468955788493:web:eec3d4019f063ac0786584"
-  }
 };
