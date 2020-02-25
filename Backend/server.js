@@ -21,8 +21,8 @@ let PORT = process.env.PORT || 4000;
 
 admin.initializeApp({
     credential: admin.credential.cert(settings),
-    databaseURL: "https://myapp-a5ac5.firebaseio.com",
-    storageBucket: "gs://myapp-a5ac5.appspot.com"
+    databaseURL: "",
+    storageBucket: ""
 });
 middleware(app);
 router(app);
